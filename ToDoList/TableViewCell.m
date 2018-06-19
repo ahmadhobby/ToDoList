@@ -22,6 +22,10 @@
 }
 
 - (void)configureCellWith:(ToDo *)item {
+    self.titleLabel.text = item.title;
+    self.descriptionLabel.text = item.toDoDescription;
+    self.priorityLabel.text = [NSString stringWithFormat:@"%li", (long)item.priorityNumber];
+    self.completionLabel.text = [NSString stringWithFormat:@"%i", item.isCompleted];
     
 }
 
