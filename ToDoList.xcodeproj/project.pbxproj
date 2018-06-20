@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E021F20C20D972D9007FE17E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E021F20B20D972D9007FE17E /* AppDelegate.m */; };
-		E021F20F20D972D9007FE17E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E021F20E20D972D9007FE17E /* ViewController.m */; };
+		E021F20F20D972D9007FE17E /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E021F20E20D972D9007FE17E /* MyViewController.m */; };
 		E021F21220D972D9007FE17E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E021F21020D972D9007FE17E /* Main.storyboard */; };
 		E021F21420D972DA007FE17E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E021F21320D972DA007FE17E /* Assets.xcassets */; };
 		E021F21720D972DA007FE17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E021F21520D972DA007FE17E /* LaunchScreen.storyboard */; };
@@ -21,8 +21,8 @@
 		E021F20720D972D9007FE17E /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E021F20A20D972D9007FE17E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E021F20B20D972D9007FE17E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E021F20D20D972D9007FE17E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E021F20E20D972D9007FE17E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E021F20D20D972D9007FE17E /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		E021F20E20D972D9007FE17E /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		E021F21120D972D9007FE17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E021F21320D972DA007FE17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E021F21620D972DA007FE17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,8 +66,8 @@
 			children = (
 				E021F20A20D972D9007FE17E /* AppDelegate.h */,
 				E021F20B20D972D9007FE17E /* AppDelegate.m */,
-				E021F20D20D972D9007FE17E /* ViewController.h */,
-				E021F20E20D972D9007FE17E /* ViewController.m */,
+				E021F20D20D972D9007FE17E /* MyViewController.h */,
+				E021F20E20D972D9007FE17E /* MyViewController.m */,
 				E021F22020D97805007FE17E /* ToDo.h */,
 				E021F22120D97805007FE17E /* ToDo.m */,
 				E021F22320D98469007FE17E /* TableViewCell.h */,
@@ -151,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E021F20F20D972D9007FE17E /* ViewController.m in Sources */,
+				E021F20F20D972D9007FE17E /* MyViewController.m in Sources */,
 				E021F21A20D972DA007FE17E /* main.m in Sources */,
 				E021F20C20D972D9007FE17E /* AppDelegate.m in Sources */,
 				E021F22520D98469007FE17E /* TableViewCell.m in Sources */,
